@@ -124,7 +124,9 @@ i{
     font-size:20px;
 }
 
-
+.hidden{
+    display:none;
+}
 
 /*@-moz-document url-prefix(){
     #title{
