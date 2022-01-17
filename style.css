@@ -6,10 +6,8 @@ html, body{
 
 .full-page-container{
     background: url(https://files.pitchbook.com/website/images/content/Midwest.png) center no-repeat;
-    /*background-size: 1250px 750px;*/
     background-size:cover;
     background-repeat: no-repeat;
-    /*margin: 0 auto;*/
     height:760px;
 }
 
@@ -17,14 +15,13 @@ html, body{
     text-align:center;
 }
 
-#title, #description{
+.title, .description{
     text-align:center;
     font-family:'Open Sans', sans-serif;
-    /*color: rgba(116, 110, 110, 0.836);*/
-    color:rgba(127, 136, 145, 0.925);
+    color:#545e6d;
 }
 
-#title{
+.title{
     font-size:60px;
     font-weight: 100;
     margin-top:0;
@@ -32,29 +29,23 @@ html, body{
     letter-spacing: 3px;
 }
 
-#description{
+.description{
     font-size:20px;
     margin-bottom:23px;
-    color:rgba(127, 136, 145, 0.925);
 }
 
 .form-wrapper{
-    /*display:grid;
-    grid-template-columns: 30px 1fr 1fr 30px;*/
     display:flex;
     justify-content:center;
 }
 
 #survey-form{
-    /*grid-column:2/4;*/
-    background:linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.1));/*
-    transform:translateX(-45%);*/
+    background:linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4));
     padding: 20px 30px;
     color: lightgray;
     width:100%;
     max-width:500px;
     height:510px;
-    
 }
 
 form input[type=text] {
@@ -88,28 +79,10 @@ textarea{
 
 form input[type=submit]{
     padding:7px;
-    color: darkslategray;
     width: 100px;
 }
 
-#name-label, #email-label, #number-label{
-    color:darkslategrey;
-}
-
-/*.party{
-    color:darkslategray;
-}
-
-.party1, .party2{
-    color:darkslategray;
-}*/
-
-.live-wrapper{
-    color: darkslategray;
-}
-
 .copyright{
-    background-color:rgba(127, 136, 145, 0.925);
     padding:8px;
     color:white;
     font-size:12px;
@@ -135,27 +108,16 @@ i{
 }
 
 .nav-list{
-    /*background:linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.3)); 
-    height:60px;
-    width:1250px;*/
     display:flex;
     justify-content:flex-end;
-    margin-top:0;
-}
-
-.nav-list{
     list-style:none;
-    display:flex;
+    margin:0;
 }
 
 .nav-link{
     text-decoration:none;
     color:white;
-    margin-right:30px;
-}
-
-.heading{
-    margin-top:0;
+    margin-right: 35px;
 }
 
 /*@media (max-width: 950px){
