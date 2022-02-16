@@ -153,6 +153,17 @@ i{
     color:#545e6d;
 }
 
+@media(max-width:1050px){
+    .image-wrapper{
+        display:none;
+    }
+}
+
+
+
+
+
+
 /*@-moz-document url-prefix(){
     #title{
         color:red;
