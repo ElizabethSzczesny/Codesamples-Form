@@ -1,16 +1,8 @@
-html, body{
+*{
     margin:0;
     padding:0;
     font-family:'Open Sans', sans-serif;
 }
-
-/*.full-page-container{
-    background: url(https://files.pitchbook.com/website/images/content/Midwest.png) center no-repeat;
-    background: url("images/Screen\ Shot\ 2022-02-03\ at\ 12.13.19\ PM.png");
-    background-size:contain;
-    background-repeat: no-repeat;
-    height:760px;
-}*/
 
 .heading-wrapper{
     text-align:center;
@@ -20,7 +12,6 @@ html, body{
     display:flex;
     justify-content:flex-end;
     list-style:none;
-    margin:0;
 }
 
 .nav-link{
@@ -33,6 +24,7 @@ html, body{
     text-align:center;
     font-family:'Open Sans', sans-serif;
     color:#545e6d;
+    z-index:30;
 }
 
 .title{
@@ -48,7 +40,7 @@ html, body{
     margin-bottom:23px;
 }
 
-.main-body{
+.full-page-container{
     position:relative;
 }
 
@@ -70,15 +62,17 @@ html, body{
 }
 
 #survey-form{
-    padding: 20px 30px;
+    padding: 20px 20px 0 20px;
     margin-left:50px;
     margin-bottom:5px;
     color:#545e6d;
     width:100%;
     max-width:500px;
-    height:510px;
+    height:480px;
     border: 1px solid gray;
-    z-index:20;
+    z-index:40;
+    line-height:1.5rem;
+
 }
 
 form input[type=text] {
@@ -130,6 +124,7 @@ form input[type=submit]{
     background-color:rgba(127, 136, 145, 0.925);
     display:flex;
     justify-content: space-between;
+    padding:10px;
 }
 
 .icons-list{
@@ -144,20 +139,12 @@ i{
     font-size:20px;
 }
 
-.hidden{
-    display:none;
-}
-
 .submit-btn{
     font-family:'Opens Sans', sans-serif;
-    color:#545e6d;
+    color: #545e6d !important;
 }
 
-@media(max-width:1050px){
-    .image-wrapper{
-        display:none;
-    }
-}
+
 
 
 
