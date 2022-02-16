@@ -42,6 +42,7 @@
 
 .full-page-container{
     position:relative;
+    height:auto;
 }
 
 .image-wrapper{
